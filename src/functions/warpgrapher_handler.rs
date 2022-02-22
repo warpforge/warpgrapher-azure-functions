@@ -21,14 +21,14 @@ model:
     props:
       - name: name
         type: String
-  - name: Project
+  - name: Message
     props:
-      - name: name
+      - name: value
         type: String
     rels:
-      - name: users
+      - name: author
         nodes: [User]
-        list: true
+        list: false
 ";
 
 #[func]
