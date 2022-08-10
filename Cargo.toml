@@ -1,6 +1,6 @@
 [package]
 name = "warpgrapher-azure-functions"
-version = "0.1.0"
+version = "0.11.2"
 authors = ["dev"]
 edition = "2021"
 
@@ -9,7 +9,7 @@ edition = "2021"
 [dependencies]
 hyper = "0.14.19"
 azure-functions = {version="0.11.0", path="azure-functions-rs/azure-functions"}
-warpgrapher = { version="0.11.1", features=["gremlin"] }
+warpgrapher = { version="0.11.2", features=["gremlin"] }
 futures = {version="0.3.21"}
 serde_json = {version="1.0.81"}
 serde = "1.0.137"
